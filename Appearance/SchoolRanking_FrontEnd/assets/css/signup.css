@@ -1,0 +1,91 @@
+.signup{
+    min-height: 100vh;
+    padding-top: 150px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #FFFCCC;
+}
+fieldset{
+
+}
+
+#form{
+    margin-bottom: 30px!important;
+}
+
+.inner-about-image{
+    /*margin-top: 200px!important;*/
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.inner-about-image:after {
+    position: absolute;
+    top: -180px;
+    left: 57px;
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: url(../img/inner-about-content-animal-image.png) 0 0 no-repeat;
+}
+
+
+.signup_title{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wrapper{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+.wrapper>p{
+    font-size: 14px;
+    color: gray;
+}
+.wrapper>button{
+    margin-left: 10px!important;
+    border: none;
+    background-color: rgba(255,255,255,1);
+    color: green;
+}
+.wrapper>button:hover{
+    text-decoration: underline;
+}
+
+.wrapper>label{
+    display: flex;
+    float: left;
+}
+
+.wrapper>label,.wrapper>input{
+    flex: 1;
+}
+.wrapper>select{
+    width: 204px;
+    padding: 0px;
+    height: 30px;
+}
+input[type='submit']{
+    width: 400px;
+    color: #fff;
+    margin-top: 10px;
+    background-color: #000000;
+    float: right;
+}
+input[type='submit']:hover{
+    filter: brightness(1.8);
+}

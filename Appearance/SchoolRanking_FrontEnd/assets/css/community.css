@@ -1,0 +1,27 @@
+.add-news{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    gap: 20px;
+    background-color: #FFF1CC;
+    padding: 20px 40px!important;
+}
+
+#add__question{
+    width: 200px;
+    padding: 5px 10px!important;
+    background-color: lime;
+    border: 1px solid lightgreen;
+    color: white;
+}
+
+.question__body{
+    width: 700px;
+    display: flex;
+    gap: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}

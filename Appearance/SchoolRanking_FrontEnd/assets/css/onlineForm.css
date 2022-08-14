@@ -1,0 +1,167 @@
+.online_form{
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background: #FFFCCC;
+}
+
+.pink{
+    color: #f00;
+}
+
+.pink2{
+    width: 400px;
+    display: block;
+    background-color: #0ff;
+}
+
+.online_form_container{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.online_form_item{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 30px!important;
+}
+.online_form_item_title{
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    font-size: 28px;
+}
+.stageList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.stageList_item{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem!important;
+}
+.stageList_item_title{
+    font-size: 18px;
+}
+
+.amount_of_students_per_teacher{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.percentage_student,.percentage_IELTS,.subject_arts_item,
+.subject_arts_item_subject,
+.subject_arts_item_arts{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.subject_arts,.subject, .arts{
+    width: 100%;
+    padding-left: 50px!important;
+}
+.subject, .arts{
+    font-size: 20px;
+}
+.subject_arts_item_title{
+    font-size: 24px;
+}
+.subject_arts_item_arts,.subject_arts_item_subject{
+
+}
+
+.subject_and_art_item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem!important;
+}
+
+.school_activities{
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 3rem!important;
+}
+.school_activities_item{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.school_activities_item_description{
+    display: none;
+    width: 600px;
+    gap: 10px;
+}
+#stageList_item_description,
+#impact_student_description{
+    width: 400px;
+    min-height: 80px;
+}
+.school_activities_item_description_yes{
+    display: flex;
+}
+.impact_student_item{
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+    margin-left: 2rem!important;
+}
+.impact_student_item>label{
+    font-size: 16px;
+    margin-left: 10px!important;
+}
+.impact_student_item_description{
+    display: none;
+    /*display: flex;*/
+    width: 800px;
+    gap: 10px;
+}
+.impact_student_item_description_checked{
+    display: flex;
+}
+.support_advanced_courses{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.support_advanced_course{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem!important;
+}
+
+.support_advanced_course_item>label{
+    margin-left: 10px!important;
+}
+.support_advanced_course_item_hide{
+    display: none;
+}
+.support_advanced_course_item_show{
+    display: flex;
+    margin-left: 3rem!important;
+}
+.support_advanced_course_item_show>label{
+    margin-right: 10px!important;
+}
+.sport_award_item,.system{
+    margin-left: 2rem!important;
+ }
+.sport_award_item>label,
+.system>label{
+    margin-left: 10px!important;
+}
